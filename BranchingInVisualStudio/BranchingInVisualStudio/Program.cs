@@ -6,7 +6,8 @@ namespace BranchingInVisualStudio
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Movie annasMovie = new Movie() { Title = "Back to the Future", Length = 90 };
+
         }
     }
 }
